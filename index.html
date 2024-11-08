@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <title>RockPaperScissor</title>
 </head>
 <body>
-    
+    <h1 id="main-header" style="text-align: center;">ROCK PAPER SCISSOR GAME</h1>
+    <P id="introduction" style="text-align: center;"><span style="font-weight: bold; font-size: larger;">Welcome!</span>
+     In this simple game, you're going to play rock paper scissor with a very
+    intelligent(ish) super computer! Good luck!</P>
+    <!-- game section -->
+    <div id="plyr-sction">
+        <div>
+            <p style="text-align: center; border-top: 1px solid black; padding-top: 5vh;">Pick your option:</p>
+            <button class="plyrBttn" id="rock">Rock</button>
+            <button class="plyrBttn" id="paper">Paper</button>
+            <button class="plyrBttn" id="scissor">Scissor</button>
+        </div>
+    </div>
+    <div id="comp-rply">
+        <p id="comp-talk" style="margin-top: 5vh; text-align: center; border-top: 1px solid black; padding-top: 5vh;">
+            Super smart(ish) computer: <span id="comp-text">I'm waiting for your play. Come On!</span>
+        </p>
+    </div>
+    <p style="text-align: center; font-size: 22px;" >Score so far:</p>
+    <p style="text-align: center; ">You:</p>
+    <div class="score" style="text-align: center; font-size: 22px; border: 1px solid black;" id="hmScore">0</div>
+    <p style="text-align: center; ">Computer:</p>
+    <div class="score" style="text-align: center; font-size: 22px; border: 1px solid black;" id="comScore">0</div>
+    <!-- game section -->
+     <script src="logicUI.js"></script>
 </body>
 </html>

@@ -1,0 +1,34 @@
+body{
+    font-family: calibri, serif;
+}
+
+#main-header
+{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#plyr-sction, #comp-rply
+{
+    display: flex;
+    justify-content: center;
+}
+
+.plyrBttn
+{
+    width: 15vw;
+    font-weight: bold;
+    color: #ffeaee;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #096b72;
+}
+
+.score
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 5vw;
+    margin-top: 1vh;
+}
